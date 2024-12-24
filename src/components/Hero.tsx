@@ -6,7 +6,7 @@ export default function Hero() {
   const lastName = "LIYANAGE";
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-gray-50 to-gray-100 dark:from-slate-900 dark:to-slate-900">
+    <section id="hero" className="min-h-screen flex items-center justify-center bg-gradient-to-b from-gray-50 to-gray-100 dark:from-slate-900 dark:to-slate-900">
       <div className="container px-4 mx-auto">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <motion.div
@@ -73,14 +73,16 @@ export default function Hero() {
                 ))}
               </motion.span>
             </h1>
-            <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-             Currently 4th Year Computer Engineering Undergraduate specializing in Software Engineering, Artificial Intelligence, Machine Learning, and Deep Learning.
+            <p className="text-xl text-amber-700 dark:text-amber-700 mb-8">
+            "Turning ideas into impactful solutions through code and innovation."
             </p>
+            <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
+            Final-year Computer Engineering undergraduate specializing in Software Engineering, Artificial Intelligence, Machine Learning, and Deep Learning.            </p>
             <div className="flex gap-4">
               <a href="#contact" className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
                 Contact Me
               </a>
-              <a href="#portfolio" className="border border-gray-300 text-black dark:text-white dark:border-gray-700 px-6 py-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition">
+              <a href="#projects" className="border border-gray-300 text-black dark:text-white dark:border-gray-700 px-6 py-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition">
                 View Work
               </a>
             </div>

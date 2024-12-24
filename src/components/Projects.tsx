@@ -1,28 +1,67 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { ExternalLink, Github } from 'lucide-react';
+import { Github } from 'lucide-react';
 import { Project } from '../types';
-
+import img1 from '../Images/1.jpg';
+import img2 from '../Images/2.png';
+import img3 from '../Images/3.jpeg';
+import img4 from '../Images/4.jpeg';
+import img5 from '../Images/5.jpg';
+import img6 from '../Images/6.jpeg';
 const projects: Project[] = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A full-featured e-commerce platform built with React and Node.js",
-    image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop",
-    technologies: ["React", "Node.js", "MongoDB", "AWS"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
-    category: "fullstack"
+    title: "Sinhala Spelling and Grammar Checker",
+    description: " Developed multiple models to check Sinhala spellings and grammar errors . For final combined model, used custom LSTM model and Random Forest Calssifier. ",
+    image: img1,
+    technologies: ["AI", "ML", "DL"],
+    githubUrl: "https://github.com/NimsaraLiyanage/Sinhala_spelling_corrector_and_grammar_checker.git",
+    category: "AI/ML"
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates",
-    image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&h=600&fit=crop",
-    technologies: ["React", "Firebase", "Tailwind CSS"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
-    category: "frontend"
+    title: "Lecture hall booking system using React.js and Spring Boot",
+    description: " Developed a comprehensive lecture hall booking system using React.js and Spring Boot .",
+    image: img2,
+    technologies: ["React", "Spring Boot", "MySQL"],
+    githubUrl: "https://github.com/NimsaraLiyanage/VenueVista.git",
+    category: "Fullstack"
+  },
+  {
+    id: 3,
+    title: "Plant Disease Detection Using VGG16 with ResNet50",
+    description: " Developed a plant disease detection system to assist in early disease identification and improve crop management.",
+    image: img3,
+    technologies: ["Deep Learning", "ResNet50", "VGG16"],
+    githubUrl: "https://github.com/NimsaraLiyanage/Plant-Disease-Detection-Using-Deep-Learning.git",
+    category: "Deep Learning"
+  },
+  {
+    id: 4,
+    title: "Responsive React JS Blog Application",
+    description: "my React JS blog application offers a comprehensive suite of features aimed at empowering users to create, manage, and share captivating content effortlessly. Its responsive design and utilization of React Router 6 underscore my commitment to delivering modern, user-centric web applications",
+    image: img4,
+    technologies: ["React","JS","CSS"],
+    githubUrl: "https://github.com/NimsaraLiyanage/Responsive-React-JS-Blog-Application-.git",
+    category: "Frontend"
+  },
+  {
+    id: 5,
+    title: "Smart Attendance System Using Fingerprint Recognition",
+    description: "This project is a prototype that showcases how to build a biometric attendance system using the AS608 Fingerprint sensor and Arduino.And also I made a simple react application for this project.",
+    image:img5,
+    technologies: ["Embedded Systems","AS608 Sensor", "Arduino","React"],
+    githubUrl: "https://github.com/NimsaraLiyanage/Smart-Attendance-System-Using-Fingerprint-Recognition.git",
+    category: "Embedded Systems"
+  }, 
+  {
+    id: 6,
+    title: "Uber Eats Sample DatabaseApp",
+    description: "This is a backend project using PHP.I got lot of knowledge about SQL queries,crud operations,SQL indexing and SQL joins(Inner,Left,Right,Full )",
+    image: img6,
+    technologies: ["Php", "CSS",],
+    githubUrl: "https://github.com/NimsaraLiyanage/Uber-Eats-DatabaseApp.git",
+    category: "Backend"
   }
 ];
 
@@ -33,7 +72,7 @@ export default function Projects() {
   });
 
   return (
-    <section id="portfolio" className="py-20 bg-gray-50 dark:bg-slate-900">
+    <section id="projects" className="py-20 bg-gray-50 dark:bg-slate-900">
       <div className="container px-4 mx-auto">
         <motion.div
           ref={ref}
@@ -41,7 +80,7 @@ export default function Projects() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">Featured Projects</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white">Featured Projects</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project) => (
               <motion.div
@@ -69,7 +108,7 @@ export default function Projects() {
                     ))}
                   </div>
                   <div className="flex gap-4">
-                    <a
+                    {/* <a
                       href={project.demoUrl}
                       className="flex items-center gap-2 text-blue-600 hover:text-blue-700"
                       target="_blank"
@@ -77,7 +116,7 @@ export default function Projects() {
                     >
                       <ExternalLink size={20} />
                       Demo
-                    </a>
+                    </a> */}
                     <a
                       href={project.githubUrl}
                       className="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-gray-700"

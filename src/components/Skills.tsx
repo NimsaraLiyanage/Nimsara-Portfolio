@@ -3,12 +3,13 @@ import { useInView } from 'react-intersection-observer';
 import { Skill } from '../types';
 
 const skills: Skill[] = [
-  { name: 'React', level: 90, category: 'technical' },
-  { name: 'Node.js', level: 85, category: 'technical' },
-  { name: 'TypeScript', level: 80, category: 'technical' },
+  { name: 'React', level: 85, category: 'technical' },
+  { name: 'Java', level: 80, category: 'technical' },
+  { name: 'Html/CSS/JS', level: 92, category: 'technical' },
+  { name: 'AI/ML/DL', level: 80, category: 'technical' },
   { name: 'Problem Solving', level: 95, category: 'soft' },
   { name: 'Communication', level: 90, category: 'soft' },
-  { name: 'Git', level: 85, category: 'tools' }
+  { name: 'Git', level: 83, category: 'tools' }
 ];
 
 export default function Skills() {
@@ -26,7 +27,7 @@ export default function Skills() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">Skills & Expertise</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white">Skills & Expertise</h2>
           <div className="max-w-3xl mx-auto">
             {skills.map((skill) => (
               <div key={skill.name} className="mb-6">

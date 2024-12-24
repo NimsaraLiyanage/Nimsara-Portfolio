@@ -18,13 +18,13 @@ export default function About() {
           transition={{ duration: 0.5 }}
           className="max-w-4xl mx-auto"
         >
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">About Me</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white">About Me</h2>
             <div className="grid md:grid-cols-2 gap-40">
             <div>
-              <h3 className="text-center text-xl font-semibold mb-4 text-gray-900 dark:text-white">My Journey</h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-6">
+              <h3 className="text-center text-3xl font-semibold mb-4 text-gray-900 dark:text-white">My Journey</h3>
+              <p className="text-xl text-gray-600 dark:text-gray-300 mb-6">
               🎓 Computer Engineering undergraduate at the University of Jaffna, pursuing B.Sc.(Eng)(Hons) with a passion for building innovative solutions at the intersection of software development and artificial intelligence.</p>
-              <p className="text-gray-600 dark:text-gray-300 mb-6">
+              <p className="text-xl text-gray-600 dark:text-gray-300 mb-6">
              With over 2 years of experience in web development, I've worked on various projects.
              My passion lies in creating clean, efficient, and user-friendly solutions.
               </p>
@@ -38,8 +38,8 @@ export default function About() {
               </a>
             </div>
             <div>
-              <h3 className="text-center text-xl font-semibold mb-4 text-gray-900 dark:text-white">Core Expertise</h3>
-              <ul className="space-y-3 text-gray-600 dark:text-gray-300">
+              <h3 className="text-center text-3xl font-semibold mb-4 text-gray-900 dark:text-white">Core Expertise</h3>
+              <ul className="text-xl space-y-3 text-gray-600 dark:text-gray-300">
               <li className="text-center">• Full Stack Development</li>
               <li className="text-center">• React & Java</li>
               <li className="text-center">• MySQL</li>

@@ -38,7 +38,7 @@ export default function Contact() {
           transition={{ duration: 0.5 }}
           className="max-w-4xl mx-auto"
         >
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">
+          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white">
             Get in Touch
           </h2>
           <div className="grid md:grid-cols-2 gap-12">
@@ -70,7 +70,7 @@ export default function Contact() {
                     htmlFor="user_name"
                     className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1"
                   >
-                    Name
+                    Your Name
                   </label>
                   <input
                     type="text"
@@ -85,7 +85,7 @@ export default function Contact() {
                     htmlFor="user_email"
                     className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1"
                   >
-                    Email
+                   Your Email
                   </label>
                   <input
                     type="email"

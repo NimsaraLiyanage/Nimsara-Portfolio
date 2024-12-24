@@ -5,20 +5,20 @@ const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { label: 'Home', href: './Hero.tsx' },
-    { label: 'Projects', href: './Projects.tsx' },
+    { label: 'Home', href: '#hero' },
+    { label: 'Projects', href: '#projects' },
     { label: 'About', href: '#about' },
     { label: 'Contact', href: '#contact' },
   ];
 
   return (
     <nav className="fixed w-full bg-transparent dark:bg-transparent backdrop-blur-sm shadow-sm z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className=" max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <Code className="h-8 w-8 text-indigo-600" />
-            <span className="ml-2 text-xl font-bold text-black  dark:text-white ">Nimsara Liyanage</span>
+            <span className="ml-2 text-2xl font-bold text-black  dark:text-white ">Nimsara Liyanage</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
                 <a
                   key={item.label}
                   href={item.href}
-                  className="text-black dark:text-white hover:text-indigo-600 px-2 py-3 rounded-md text-lg font-medium transition-colors"
+                  className="text-black dark:text-white hover:text-indigo-600 dark:hover:text-indigo-600 px-2 py-3 rounded-md text-2xl font-medium transition-colors"
                 >
                   {item.label}
                 </a>
@@ -69,7 +69,7 @@ const Navbar: React.FC = () => {
               <a
                 key={item.label}
                 href={item.href}
-                className="block text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md text-base font-medium transition-colors"
+                className="block text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md text-lg font-medium transition-colors"
               >
                 {item.label}
               </a>
