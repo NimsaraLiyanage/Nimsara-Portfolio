@@ -36,9 +36,9 @@ export default function Contact() {
           initial={{ opacity: 0, y: 50 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5 }}
-          className="max-w-4xl mx-auto"
+          className="max-w-3xl mx-auto"
         >
-          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white">
+          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">
             Get in Touch
           </h2>
           <div className="grid md:grid-cols-2 gap-12">
@@ -46,7 +46,7 @@ export default function Contact() {
               <h3 className="text-xl font-semibold mb-6 text-gray-900 dark:text-white">
                 Contact Information
               </h3>
-              <div className="space-y-4">
+              <div className="space-y-3">
                 <div className="flex items-center gap-4">
                   <Mail className="text-blue-600" size={24} />
                   <span className="text-gray-600 dark:text-gray-300">
