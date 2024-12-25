@@ -18,10 +18,10 @@ export default function About() {
           transition={{ duration: 0.5 }}
           className="max-w-4xl mx-auto"
         >
-          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white">About Me</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">About Me</h2>
             <div className="grid md:grid-cols-2 gap-40">
             <div>
-              <h3 className="text-center text-3xl font-semibold mb-4 text-gray-900 dark:text-white">My Journey</h3>
+              <h3 className="text-center text-2xl font-semibold mb-4 text-gray-900 dark:text-white">My Journey</h3>
               <p className="text-xl text-gray-600 dark:text-gray-300 mb-6">
               🎓 Computer Engineering undergraduate at the University of Jaffna, pursuing B.Sc.(Eng)(Hons) with a passion for building innovative solutions at the intersection of software development and artificial intelligence.</p>
               <p className="text-xl text-gray-600 dark:text-gray-300 mb-6">
