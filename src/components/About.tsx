@@ -38,7 +38,7 @@ export default function About() {
               </a>
             </div>
             <div>
-              <h3 className="text-center text-3xl font-semibold mb-4 text-gray-900 dark:text-white">Core Expertise</h3>
+              <h3 className="text-center text-2xl font-semibold mb-4 text-gray-900 dark:text-white">Core Expertise</h3>
               <ul className="text-base space-y-3 text-gray-600 dark:text-gray-300">
               <li className="text-center">• Full Stack Development</li>
               <li className="text-center">• React & Java</li>
