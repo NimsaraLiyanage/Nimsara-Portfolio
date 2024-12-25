@@ -1,8 +1,10 @@
-import { motion } from 'framer-motion';
+import { motion } from 'framer-motion'; 
 import { useInView } from 'react-intersection-observer';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import emailjs from 'emailjs-com';
 import { useRef } from 'react';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function Contact() {
   const [ref, inView] = useInView({
@@ -19,11 +21,28 @@ export default function Contact() {
       .then(
         (response) => {
           console.log('SUCCESS!', response.status, response.text);
-          alert('Message sent successfully!');
+          toast.success('Message sent successfully!', {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+          });
+          form.current?.reset(); // Clear the form inputs
         },
         (err) => {
           console.error('FAILED...', err);
-          alert('Failed to send message.');
+          toast.error('Failed to send message. Please try again.', {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+          });
         }
       );
   };
@@ -85,7 +104,7 @@ export default function Contact() {
                     htmlFor="user_email"
                     className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1"
                   >
-                   Your Email
+                    Your Email
                   </label>
                   <input
                     type="email"
