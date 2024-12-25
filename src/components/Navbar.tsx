@@ -69,7 +69,7 @@ const Navbar: React.FC = () => {
               <a
                 key={item.label}
                 href={item.href}
-                className="block text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md font-medium transition-colors"
+                className="block text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md text-sm transition-colors"
               >
                 {item.label}
               </a>
