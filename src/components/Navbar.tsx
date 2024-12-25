@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <Code className="h-8 w-8 text-indigo-600" />
-            <span className="ml-2 text-2xl font-bold text-black  dark:text-white ">Nimsara Liyanage</span>
+            <span className="ml-2 text-xl font-bold text-black  dark:text-white ">Nimsara Liyanage</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -69,7 +69,7 @@ const Navbar: React.FC = () => {
               <a
                 key={item.label}
                 href={item.href}
-                className="block text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md text-lg font-medium transition-colors"
+                className="block text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md font-medium transition-colors"
               >
                 {item.label}
               </a>
