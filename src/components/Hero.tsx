@@ -106,7 +106,7 @@ export default function Hero() {
           >
             <div className="relative w-90 h-90 mx-auto rounded-full p-1 bg-gradient-to-r from-orange-400 via-red-500 to-purple-500 hover:scale-105 transition-transform duration-300 shadow-[0_4px_30px_rgba(255,255,255,0.5)]">
               <img
-                src="/src/components/profile.png"
+                src="../Images/profile.png"
                 alt="Profile"
                 className="rounded-full w-full h-full object-cover hover:shadow-[0_0_20px_5px_rgba(255,255,255,0.7)] transition-shadow duration-300"
               />
