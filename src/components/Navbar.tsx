@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
                 <a
                   key={item.label}
                   href={item.href}
-                  className="text-black dark:text-white hover:text-indigo-600 dark:hover:text-indigo-600 px-2 py-3 rounded-md text-2xl font-medium transition-colors"
+                  className="text-black dark:text-white hover:text-indigo-600 dark:hover:text-indigo-600 px-2 py-3 rounded-md text-base font-medium transition-colors"
                 >
                   {item.label}
                 </a>
