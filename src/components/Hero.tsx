@@ -109,7 +109,7 @@ export default function Hero() {
               <img
               src={Profile}
               alt="Profile"
-              className="rounded-full w-full h-full object-cover hover:shadow-[0_0_20px_5px_rgba(255,255,255,0.7)] transition-shadow duration-300"
+              className="rounded-full w-10/12 h-10/12 object-cover hover:shadow-[0_0_20px_5px_rgba(255,255,255,0.7)] transition-shadow duration-300"
               />
             </div>
           </motion.div>
