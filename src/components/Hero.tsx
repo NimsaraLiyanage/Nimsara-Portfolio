@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail } from 'lucide-react';
 import Profile from '../Images/profile.png';
+
 export default function Hero() {
   const firstName = "NIMSARA";
   const lastName = "LIYANAGE";
@@ -73,10 +74,10 @@ export default function Hero() {
                 ))}
               </motion.span>
             </h1>
-            <p className="text-xl text-amber-700 dark:text-amber-700 mb-8">
+            <p className=" text-amber-700 dark:text-amber-700 mb-8">
             "Turning ideas into impactful solutions through code and innovation."
             </p>
-            <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
+            <p className=" text-gray-600 dark:text-gray-300 mb-8">
             Final-year Computer Engineering undergraduate specializing in Software Engineering, Artificial Intelligence, Machine Learning, and Deep Learning.            </p>
             <div className="flex gap-4">
               <a href="#contact" className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
@@ -104,7 +105,7 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
             className="lg:w-1/2"
           >
-            <div className="relative w-90 h-90 mx-auto rounded-full p-1 bg-gradient-to-r from-orange-400 via-red-500 to-purple-500 hover:scale-105 transition-transform duration-300 shadow-[0_4px_30px_rgba(255,255,255,0.5)]">
+            <div className="relative w-80 h-80 mx-auto rounded-full p-1 bg-gradient-to-r from-orange-400 via-red-500 to-purple-500 hover:scale-105 transition-transform duration-300 shadow-[0_4px_30px_rgba(255,255,255,0.5)]">
               <img
                 src={Profile}
                 alt="Profile"
