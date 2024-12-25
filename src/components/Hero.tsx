@@ -105,11 +105,11 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
             className="lg:w-1/2"
           >
-            <div className="relative w-10/12 h-10/12 mx-auto rounded-full p-1 bg-gradient-to-r from-orange-400 via-red-500 to-purple-500 hover:scale-105 transition-transform duration-300 shadow-[0_4px_30px_rgba(255,255,255,0.5)]">
+            <div className="relative w-80 h-80 mx-auto rounded-full p-1 bg-gradient-to-r from-orange-400 via-red-500 to-purple-500 hover:scale-105 transition-transform duration-300 shadow-[0_4px_30px_rgba(255,255,255,0.5)]">
               <img
               src={Profile}
               alt="Profile"
-              className="rounded-full w-10/12 h-10/12 object-cover hover:shadow-[0_0_20px_5px_rgba(255,255,255,0.7)] transition-shadow duration-300"
+              className="rounded-full w-72 h-72 object-cover hover:shadow-[0_0_20px_5px_rgba(255,255,255,0.7)] transition-shadow duration-300"
               />
             </div>
           </motion.div>
