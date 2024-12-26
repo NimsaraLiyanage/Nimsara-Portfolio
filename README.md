@@ -5,8 +5,6 @@ Now you Can reach me Using this Link !
 
 https://nimsaraliyanage.github.io/Nimsara-Portfolio/
 
-![Untitled-2](https://github.com/user-attachments/assets/89bc48c3-e78b-49ab-8aa9-f00f2788dede)
-
 ![Screenshot 2024-12-26 101813](https://github.com/user-attachments/assets/0e6b4586-fdd3-4b38-8443-53b2cbd34a81)
 
 ![Screenshot 2024-12-26 080945](https://github.com/user-attachments/assets/e654a79b-9f6e-4727-afdd-4e5583530c81)
