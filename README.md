@@ -9,7 +9,7 @@ https://nimsaraliyanage.github.io/Nimsara-Portfolio/
 
 ![Screenshot 2024-12-26 080945](https://github.com/user-attachments/assets/e654a79b-9f6e-4727-afdd-4e5583530c81)
 
-![p6](https://github.com/user-attachments/assets/7d11b9a7-558b-484e-b348-7e24c357d12d)
+![p7](https://github.com/user-attachments/assets/814cdf56-aa89-42cb-8eaf-92e3a7e50d85)
 
 ![p8](https://github.com/user-attachments/assets/372abd59-ec74-4d86-a868-e5cd89273436)
 
